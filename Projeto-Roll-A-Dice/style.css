@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;;
+}
+
+h1 {
+  margin: 5rem;
+  font-size: 4.8rem;
+}
+
+span {
+  font-size: 2.4rem;
+}
+
+body .dices-wrapper{
+  width: 102.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  height: 23rem;
+  padding: 3rem 3rem;
+  background-color: rgb(209, 209, 209);
+  border: .2rem solid black;
+  border-radius: .8rem .8rem .8rem .8rem;
+}
+
+body .dice {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 2rem;
+  gap: 2rem;
+}
+
+img {
+  max-height: 12.5rem;
+  max-width: 13rem;
+  cursor: pointer;
+  transition: .3s;
+}
+
+img:hover {
+  scale: 1.1;
+}
+
+
+
+
